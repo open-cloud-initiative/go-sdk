@@ -1,4 +1,4 @@
-module github.com/open-cloud-initiative/template-go
+module github.com/open-cloud-initiative/go-sdk
 
 go 1.25.1
 
@@ -8,6 +8,11 @@ tool (
 	github.com/vektra/mockery/v2
 	gotest.tools/gotestsum
 	mvdan.cc/gofumpt
+)
+
+require (
+	golang.org/x/net v0.44.0
+	google.golang.org/grpc v1.74.2
 )
 
 require (
@@ -477,7 +482,6 @@ require (
 	golang.org/x/exp v0.0.0-20250620022241-b7579e27df2b // indirect
 	golang.org/x/exp/typeparams v0.0.0-20250210185358-939b2ce775ac // indirect
 	golang.org/x/mod v0.28.0 // indirect
-	golang.org/x/net v0.44.0 // indirect
 	golang.org/x/oauth2 v0.31.0 // indirect
 	golang.org/x/sync v0.17.0 // indirect
 	golang.org/x/sys v0.36.0 // indirect
@@ -492,7 +496,6 @@ require (
 	google.golang.org/genproto v0.0.0-20250603155806-513f23925822 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20250721164621-a45f3dfb1074 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20250728155136-f173205681a0 // indirect
-	google.golang.org/grpc v1.74.2 // indirect
 	google.golang.org/protobuf v1.36.9 // indirect
 	gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc // indirect
 	gopkg.in/mail.v2 v2.3.1 // indirect
