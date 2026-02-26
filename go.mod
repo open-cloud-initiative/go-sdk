@@ -11,7 +11,7 @@ tool (
 )
 
 require (
-	golang.org/x/net v0.50.0
+	golang.org/x/net v0.51.0
 	google.golang.org/grpc v1.79.1
 )
 
