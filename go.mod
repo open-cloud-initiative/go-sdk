@@ -12,7 +12,7 @@ tool (
 
 require (
 	golang.org/x/net v0.57.0
-	google.golang.org/grpc v1.82.0
+	google.golang.org/grpc v1.82.1
 )
 
 require (
